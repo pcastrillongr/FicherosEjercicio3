@@ -11,7 +11,7 @@ public class Fichero3Jose {
 
 	public static void main(String[] args) {
 
-		File fichero=new File("/Users/cristinavilas/Desktop/ejercicio.txt");
+		File fichero=new File("C:\\Users\\admincenec\\Desktop\\archivo.txt");
 		String manolo="";
 		ArrayList<Ayuntamiento> lista=new ArrayList<Ayuntamiento>();
 		
@@ -70,13 +70,15 @@ public class Fichero3Jose {
 			
 			
 			
-		
+		sc.close();
 			
 			
 		}catch(Exception e)
 		{
 			e.printStackTrace();
+			
 		}
+		
 	}
 
 }
